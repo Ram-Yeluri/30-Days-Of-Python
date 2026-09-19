@@ -109,7 +109,7 @@ print('True or False:', True or False)
 # True - because the data values are the same
 print('1 is 1', 1 == 1)
 print('1 is not 2', 1 != 2)           # True - because 1 is not 2
-print('A in Ram', 'A' in 'Ram')  # True - A found in the string
+print('A in RAM', 'A' in 'RAM')  # True - A found in the string
 print('B in Ram', 'B' in 'Ram')  # False -there is no uppercase B
 # True - because coding for all has the word coding
 print('coding' in 'coding for all')
