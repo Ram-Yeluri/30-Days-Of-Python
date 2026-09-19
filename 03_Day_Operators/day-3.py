@@ -12,7 +12,7 @@ print('Division: ', 7 / 2)
 print('Division without the remainder: ', 7 // 2)
 print('Modulus: ', 3 % 2)                           # Gives the remainder
 print('Division without the remainder: ', 7 // 3)
-print('Exponential: ', 3 ** 2)                     # it means 3 * 3
+print('Exponential: ', 3 ** 3)                     # it means 3 * 3
 
 # Floating numbers
 print('Floating Number,PI', 3.14)
@@ -107,14 +107,14 @@ print('True or False:', True or False)
 
 # Another way comparison
 # True - because the data values are the same
-print('1 is 1', 1 is 1)
-print('1 is not 2', 1 is not 2)           # True - because 1 is not 2
+print('1 is 1', 1 == 1)
+print('1 is not 2', 1 != 2)           # True - because 1 is not 2
 print('A in Asabeneh', 'A' in 'Asabeneh')  # True - A found in the string
 print('B in Asabeneh', 'B' in 'Asabeneh')  # False -there is no uppercase B
 # True - because coding for all has the word coding
 print('coding' in 'coding for all')
 print('a in an:', 'a' in 'an')      # True
-print('4 is 2 ** 2:', 4 is 2 ** 2)   # True
+print('4 is 2 ** 2:', 4 == 2 ** 2)   # True
 
 print(3 > 2 and 4 > 3)  # True - because both statements are true
 print(3 > 2 and 4 < 3)  # False - because the second statement is false
